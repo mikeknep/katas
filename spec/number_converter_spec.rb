@@ -35,5 +35,9 @@ describe NumberConverter do
     it "converts #{arabic} to #{roman}" do
       expect(NumberConverter.to_roman(arabic)).to eq(roman)
     end
+
+    it "converts #{roman} to #{arabic}" do
+      expect(NumberConverter.to_arabic(roman)).to eq(arabic)
+    end
   end
 end
