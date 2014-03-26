@@ -1,6 +1,6 @@
 # Code Katas
 
-This is a collection of coding katas. Currently only Ruby, but I expect more will come soon.
+This is a collection of coding katas and other exercises.
 
 
 ## Ruby
@@ -8,3 +8,7 @@ This is a collection of coding katas. Currently only Ruby, but I expect more wil
 - Fizzbuzz
 - Number Converter
 - Prime Factors
+
+## Clojure
+- Coin Changer
+- [Koans](http://clojurekoans.com/)
