@@ -1,7 +1,7 @@
 (ns coin_changer.core)
 
 
-(defn coinchanger[total]
+(defn coinchanger [total]
   (loop [total  total
          change []
          coins  [25 10 5 1]]
