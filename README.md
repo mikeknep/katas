@@ -11,6 +11,7 @@ This is a collection of coding katas and other exercises.
 
 ## Clojure
 - Coin Changer
+- Fizzbuzz
 - [Koans](http://clojurekoans.com/)
 - Prime Factors
 - Roman Numerals
