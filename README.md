@@ -15,3 +15,6 @@ This is a collection of coding katas and other exercises.
 - [Koans](http://clojurekoans.com/)
 - Prime Factors
 - Roman Numerals
+
+## Java
+- Coin Changer
