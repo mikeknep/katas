@@ -18,3 +18,4 @@ This is a collection of coding katas and other exercises.
 
 ## Java
 - Coin Changer
+- Roman Numerals
