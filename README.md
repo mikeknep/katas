@@ -18,4 +18,5 @@ This is a collection of coding katas and other exercises.
 
 ## Java
 - Coin Changer
+- Prime Factors
 - Roman Numerals
