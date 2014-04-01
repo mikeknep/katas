@@ -23,14 +23,12 @@ public class RomanNumerals {
         conversionKey.put(4, "IV");
         conversionKey.put(1, "I");
 
-        while (arabic > 0) {
-            for (Map.Entry<Integer, String> entry : conversionKey.entrySet()) {
-                int arabicKey = entry.getKey();
-                String romanValue = entry.getValue();
-                while (arabic >= arabicKey) {
-                    romanString += romanValue;
-                    arabic -= arabicKey;
-                }
+        for (Map.Entry<Integer, String> entry : conversionKey.entrySet()) {
+            int arabicKey = entry.getKey();
+            String romanValue = entry.getValue();
+            while (arabic >= arabicKey) {
+                romanString += romanValue;
+                arabic -= arabicKey;
             }
         }
 
