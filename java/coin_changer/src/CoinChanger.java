@@ -9,8 +9,6 @@ public class CoinChanger {
         LinkedHashMap<Integer, Integer> amountsOfCoins  = new LinkedHashMap<Integer, Integer>();
         List<Integer> coins = new ArrayList<Integer>();
 
-
-        // Determine how many of each coin type are needed
         for (int thisCoin : usdCoins) {
             Integer numberOfThisCoin = 0;
             while (totalAmount >= thisCoin) {
@@ -20,8 +18,6 @@ public class CoinChanger {
             amountsOfCoins.put(thisCoin, numberOfThisCoin);
         }
 
-
-        // Create and populate final list of coins
         for (Map.Entry<Integer, Integer> entry : amountsOfCoins.entrySet()) {
             Integer thisCoin = entry.getKey();
             Integer numberOfThisCoin = entry.getValue();
@@ -30,8 +26,6 @@ public class CoinChanger {
             }
         }
 
-
-        // Return the list of coins
         return coins;
     }
 }
