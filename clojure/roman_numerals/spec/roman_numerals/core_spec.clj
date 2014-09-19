@@ -32,4 +32,4 @@
       [3986 "MMMCMLXXXVI"]
     ]]
     (it (str "converts " arabic " to " roman)
-      (should= roman (number_to_roman arabic)))))
+      (should= roman (number-to-roman arabic)))))

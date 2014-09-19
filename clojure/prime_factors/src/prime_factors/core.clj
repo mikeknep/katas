@@ -1,6 +1,6 @@
 (ns prime_factors.core)
 
-(defn prime_factors_for [n]
+(defn prime-factors-for [n]
   (loop [n        n
          factors  []
          divisor  2]
